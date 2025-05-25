@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafica Annuncio Soluzioni Elettriche</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Importazione del font Montserrat da Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif; /* Fallback a sans-serif generico */
+            background-color: #f0f2f5; /* Sfondo simile a Facebook per il contesto */
+        }
+        .ad-graphic-container {
+            font-family: 'Montserrat', sans-serif;
+            /* Dimensioni per simulare un post quadrato di Facebook, ma responsivo */
+            width: 100%;
+            max-width: 500px; /* Limita la larghezza massima per leggibilità */
+            aspect-ratio: 1 / 1; /* Mantiene il formato quadrato */
+            margin: 2rem auto; /* Centra e aggiunge margine */
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Ombra per effetto "immagine" */
+            overflow: hidden; /* Assicura che il contenuto non esca */
+        }
+        .icon-accent {
+            filter: drop-shadow(0 0 3px rgba(52, 211, 153, 0.7)); /* Leggero bagliore verde */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+
+    <div class="ad-graphic-container bg-slate-900 text-white p-8 flex flex-col justify-between rounded-lg">
+        <div class="text-center">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight" style="font-family: 'Montserrat', sans-serif;">
+                SOLUZIONI <span class="text-green-400">ELETTRICHE</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mt-2" style="font-family: 'Roboto', sans-serif;">
+                Canale WhatsApp – Aggiornamenti Tecnici & Pratici
+            </p>
+        </div>
+
+        <div class="my-6 md:my-8">
+            <h2 class="text-xl md:text-2xl font-semibold text-green-400 mb-4 text-center" style="font-family: 'Montserrat', sans-serif;">Cosa troverai:</h2>
+            <ul class="space-y-2 md:space-y-3 text-sm md:text-base" style="font-family: 'Roboto', sans-serif;">
+                <li class="flex items-center">
+                    <svg class="w-5 h-5 md:w-6 md:h-6 text-green-400 mr-3 icon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    Impianti elettrici – Normative e soluzioni
+                </li>
+                <li class="flex items-center">
+                    <svg class="w-5 h-5 md:w-6 md:h-6 text-green-400 mr-3 icon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    Domotica – Automazione residenziale
+                </li>
+                <li class="flex items-center">
+                    <svg class="w-5 h-5 md:w-6 md:h-6 text-green-400 mr-3 icon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0zM12 17.75l-1.06-.955C7.008 13.882 5 11.368 5 8.5 5 6.015 7.015 4 9.5 4S14 6.015 14 8.5c0 2.868-2.008 5.382-5.94 8.295L12 17.75z"></path><path d="M12 12m-2 0a2 2 0 104 0 2 2 0 10-4 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M21 12c-1.884 3.803-5.448 6.5-9 6.5s-7.116-2.697-9-6.5C4.884 8.197 8.448 5.5 12 5.5s7.116 2.697 9 6.5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg> Sicurezza – Antifurto e videosorveglianza
+                </li>
+                <li class="flex items-center">
+                    <svg class="w-5 h-5 md:w-6 md:h-6 text-green-400 mr-3 icon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m0 0A7.5 7.5 0 0019.5 12H4.5a7.5 7.5 0 007.5 5.747z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18.75V6.253m0 12.494A7.502 7.502 0 004.5 12H19.5a7.502 7.502 0 00-7.5 6.747zM12 6.253L15 3.253m-3 3L9 3.253"></path><path d="M4 19V6.2C4 5.07989 4.42143 4.00258 5.17157 3.25243C5.92172 2.50228 6.99913 2.08086 8.12 2.08086H15.88C17.0009 2.08086 18.0783 2.50228 18.8284 3.25243C19.5786 4.00258 20 5.07989 20 6.2V19L16 17L12 19L8 17L4 19Z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path></svg> Guide operative – Schemi, consigli, esempi
+                </li>
+                <li class="flex items-center">
+                    <svg class="w-5 h-5 md:w-6 md:h-6 text-green-400 mr-3 icon-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg> Novità tecniche – Prodotti, tecnologie, tendenze
+                </li>
+            </ul>
+        </div>
+
+        <div class="text-center" style="font-family: 'Roboto', sans-serif;">
+            <p class="text-sm md:text-base text-slate-300">Hai bisogno di informazioni?</p>
+            <p class="text-md md:text-lg font-semibold text-green-400">Contattaci su WhatsApp: 320 649 7718</p>
+            <p class="mt-3 md:mt-4 text-md md:text-lg font-semibold">
+                Iscriviti subito al canale:
+            </p>
+            <a href="https://whatsapp.com/channel/0029VbAyogkDuMRkjZgLf60n" target="_blank" rel="noopener noreferrer" class="text-green-400 text-lg md:text-xl font-bold hover:underline break-all">
+                whatsapp.com/channel/0029VbAyogkDuMRkjZgLf60n
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
